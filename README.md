@@ -95,6 +95,7 @@ When taking the screenshots, a NB-IoT SIM card of provider [1nce.com](https://1n
 
 ### Screen: Registered Network
 ![Registered Network](media/registered-network.jpg)
+
 Displays the name of the registered network.
 The "Registered [Public Land Mobile Network](https://en.wikipedia.org/wiki/Public_land_mobile_network)" (RPLMN) is 
 identified by a globally unique PLMN code, which consists of a MCC (Mobile Country Code) and MNC (Mobile Network Code).
@@ -102,11 +103,13 @@ The screenshot shows MCC 262 for Germany and MNC 01 for Deutsche Telekom.
 
 ### Screen: Registration Status
 ![Registration Status](media/registration-status.jpg)
+
 Displays the Network Registration Status and the received signal strength (RSSI).
 On successful connection to the radio network, the status should be _Registered Home Network_ or _Registered Roaming_.
 
 ### Screen: Cell Information
 ![Cell Information](media/cell-information.jpg)
+
 Displays the two-byte tracking area code (TAC) in hexadecimal format, the 3 1/2 byte (28 bit) E-UTRAN cell ID in 
 hexadecimal format, the eNB ID in decimal format (E-UTRAN cell id without 8 bit sector information) and the sector of 
 the base station antenna.
@@ -123,17 +126,21 @@ with a service like https://www.cellmapper.net:
 
 ### Screen: Network Information
 ![Cell Information](media/network-information.jpg)
+
 Displays network information such as the access technology selected, the selected band and the Channel ID.
 
 ### Screen: IP Address
 ![IP Address](media/ip-address.jpg)
-The IP address assigned to the BG96 module in the address space applicable to the 
+
+Displays the IP address assigned to the BG96 module in the address space applicable to the 
 [PDP](https://en.wikipedia.org/wiki/GPRS_core_network#PDP_context).
 
 ### Screen: Geo Position
 ![Geo Position](media/geo-position.jpg)    
+
 Displays the current geo position including Longitude, Latitude and Elevation, and the number of satellites received.
 
 ### Screen: Date and Time
 ![Date and Time](media/date-and-time.jpg)
+
 Displays the current date and time in UTC.
