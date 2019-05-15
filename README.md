@@ -85,6 +85,55 @@ its embedded [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation) chip.
 * Now it is time to wait, as it may take seconds to a few minutes now for the BG96 module to manually register at the 
   NB-IoT radio network. The activity LED should flash in the rhythm "on-off-off-off" periodically to indicate network search.
 * Once the BG96 module is connected, the splash screen on the LCD display will disappear, and other screens will
-  appear. Use the two buttons on the corners of the right side of the display to cycle up/down trough this screens.    
-  
-      
+  appear. Use the two buttons on the corners of the right side of the display to cycle up/down trough these screens.    
+
+## Screens
+The button on the left top corner can be used to toggle the backlight of the LCD display.
+Use the two buttons on the corners of the right side of the display to cycle up/down trough the following screens.
+
+When taking the screenshots, a NB-IoT SIM card of provider [1nce.com](https://1nce.com) was used.
+
+### Screen: Registered Network
+![Registered Network](media/registered-network.jpg)
+Displays the name of the registered network.
+The "Registered [Public Land Mobile Network](https://en.wikipedia.org/wiki/Public_land_mobile_network)" (RPLMN) is 
+identified by a globally unique PLMN code, which consists of a MCC (Mobile Country Code) and MNC (Mobile Network Code).
+The screenshot shows MCC 262 for Germany and MNC 01 for Deutsche Telekom.
+
+### Screen: Registration Status
+![Registration Status](media/registration-status.jpg)
+Displays the Network Registration Status and the received signal strength (RSSI).
+On successful connection to the radio network, the status should be _Registered Home Network_ or _Registered Roaming_.
+
+### Screen: Cell Information
+![Cell Information](media/cell-information.jpg)
+Displays the two-byte tracking area code (TAC) in hexadecimal format, the 3 1/2 byte (28 bit) E-UTRAN cell ID in 
+hexadecimal format, the eNB ID in decimal format (E-UTRAN cell id without 8 bit sector information) and the sector of 
+the base station antenna.
+
+This information can be used to look up the position of the base station tower in a map, 
+with a service like https://www.cellmapper.net:
+
+* Enter Provider. The input field behaves a little bit strange.
+  If RPLMN for example is "26201", then you may need to enter "2621".
+* Enter Network "4G - LTE"
+* In Input Area "Tower Search", enter eNB ID and press Return
+
+![Cellmapper.net](media/cellmapper-net.png)
+
+### Screen: Network Information
+![Cell Information](media/network-information.jpg)
+Displays network information such as the access technology selected, the selected band and the Channel ID.
+
+### Screen: IP Address
+![IP Address](media/ip-address.jpg)
+The IP address assigned to the BG96 module in the address space applicable to the 
+[PDP](https://en.wikipedia.org/wiki/GPRS_core_network#PDP_context).
+
+### Screen: Geo Position
+![Geo Position](media/geo-position.jpg)    
+Displays the current geo position including Longitude, Latitude and Elevation, and the number of satellites received.
+
+### Screen: Date and Time
+![Date and Time](media/date-and-time.jpg)
+Displays the current date and time in UTC.
