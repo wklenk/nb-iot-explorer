@@ -58,7 +58,7 @@ its embedded GNSS chip.
 * If you want to keep the application in the Pixel.js even after re-booting the Pixl.js, then save it to flash by typing 
   _save();_
 
-
+```
      ____                 _
     |  __|___ ___ ___ _ _|_|___ ___
     |  __|_ -| . |  _| | | |   | . |
@@ -74,7 +74,7 @@ its embedded GNSS chip.
     Compressed 40000 bytes to 20601
     Running onInit()...
     Press RESET button on NB-IoT shield if onInit() was called interactively.
-    
+```    
 * To connect to the NB-IoT network, press the RESET button on the NB-IoT shield now.
   This is not necessary when you boot the device. In this case, the NB-IoT shield will reset by its own.
   When the application detects that the BG96 module is ready for operation, it will flicker the background light
