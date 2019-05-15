@@ -1,5 +1,6 @@
 # NB-IoT Explorer
-Explore Narrowband IoT (NB-IoT) Radio Networks in a comfortable, user-friendly way.
+Explore [Narrowband IoT (NB-IoT)](https://en.wikipedia.org/wiki/Narrowband_IoT) 
+Radio Networks in a comfortable, user-friendly way.
 
 In this project, two extremely powerful components come together: 
 
@@ -15,7 +16,7 @@ The NB-IoT Shield provides direct access to the serial interface of the BG96 mod
 so you also can try things out using a FTDI cable, which can be useful if you want to do firmware updates. The BG96 module
 provides a wide range of AT commands for a lot of purposes, and even provides high-level protocol implementations
 like HTTPS and MQTT, which can be very useful for IoT applications. Additionally, it provides geo-positioning by
-its embedded GNSS chip.
+its embedded [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation) chip.
  
 ## Material
 * [Espruino Pixl.js](https://shop.espruino.com/pixljs) - Bluetooth microcontroller programmable in JavaScript with 
