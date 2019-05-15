@@ -59,15 +59,14 @@ its embedded GNSS chip.
   _save();_
 
 
-    >
      ____                 _
     |  __|___ ___ ___ _ _|_|___ ___
     |  __|_ -| . |  _| | | |   | . |
     |____|___|  _|_| |___|_|_|_|___|
              |_| espruino.com
      2v01 (c) 2018 G.Williams
-    >
-    >save();
+    
+    save();
     =undefined
     Compacting Flash...
     Calculating Size...
@@ -75,7 +74,6 @@ its embedded GNSS chip.
     Compressed 40000 bytes to 20601
     Running onInit()...
     Press RESET button on NB-IoT shield if onInit() was called interactively.
-    >
     
 * To connect to the NB-IoT network, press the RESET button on the NB-IoT shield now.
   This is not necessary when you boot the device. In this case, the NB-IoT shield will reset by its own.
