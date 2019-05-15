@@ -1,6 +1,6 @@
 /*
-  Explore NB-IoT network in a comfortable and user-friendly way using Espruino Pixel.js and
-  Dragino NB-IoT Shield (Quectel BG96 module).
+  Explore NB-IoT radio networks in a comfortable and user-friendly way using Espruino Pixel.js and
+  Dragino NB-IoT Shield QG96 (Quectel BG96 module).
 
   Note: If you have chosen to upload the code to RAM (default) in the Espruino IDE, you need
         to interactively call "onInit();" on the device's JavaScript console after uploading.
@@ -446,6 +446,7 @@ function onInit() {
     return line.substr('RDY'.length);
   });
 
+  // Animations are funny :)
   for (var x=128 ; x>4 ; x -= 2) {
     g.clear();
     g.drawImage(img, x, 2);

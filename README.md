@@ -2,6 +2,8 @@
 Explore [Narrowband IoT (NB-IoT)](https://en.wikipedia.org/wiki/Narrowband_IoT) 
 Radio Networks in a comfortable, user-friendly way.
 
+![Animated picture](media/nb-iot-explorer-blinking.gif "Animated picture")
+
 In this project, two extremely powerful components come together: 
 
 The [Espruino Pixl.js](https://www.espruino.com/Pixl.js) with its built-in JavaScript
